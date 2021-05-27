@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <button onClick={() => setButton(!button)}> Click me</button>
-      {button === true ? <h1>Shubham</h1>: null}
+      {button ===  true ? <h1>Shubham</h1>: null}
     </div>
   );
 }
